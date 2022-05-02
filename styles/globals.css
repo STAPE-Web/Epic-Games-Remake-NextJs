@@ -1,16 +1,203 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 
-a {
-  color: inherit;
-  text-decoration: none;
+::-webkit-scrollbar {
+  display: none;
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  outline: none;
+  color: #fff;
+}
+
+body {
+  background: #121212;
+}
+
+header {
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #121212;
+  z-index: 100;
+}
+
+header .nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+header .nav .logo {
+  cursor: pointer;
+}
+
+header .search {
+  background: #202020;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 30px;
+  gap: 10px;
+}
+
+header .search input {
+  background: transparent;
+  border: none;
+  font-size: 18px;
+}
+
+header .search input::placeholder {
+  color: #9A9A9A;
+}
+
+header .search .icon {
+  width: 18px;
+  height: 18px;
+}
+
+header .profile {
+  background: #202020;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  font-size: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Store */
+.Store {
+  position: absolute;
+  margin-top: 85px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 20%
+}
+
+.Store .preview {
+  width: 100%;
+  background: url('../assets/games/preview.png') no-repeat;
+  height: 750px;
+  background-size: cover;
+  border-radius: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.Store .preview .description {
+  width: 320px;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  line-height: 1.625;
+  margin: 20px 0;
+}
+
+.Store .preview button {
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 0 20px;
+  height: 50px;
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.Store .gameList {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px 10px;
+  margin-top: 50px;
+}
+
+.Store .gameList .game {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.Store .gameList .img {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.Store .gameList h2 {
+  font-size: 18px;
+}
+
+.Store .gameList p {
+  text-transform: uppercase;
+  color: #666;
+}
+
+.Store .gameName {
+  font-size: 50px;
+}
+
+.Store .gamePreview {
+  border-radius: 30px;
+  margin: 30px 0;
+}
+
+.Store .gameBuy {
+  margin: 20px 0;
+  cursor: pointer;
+  background: #25292E;
+  text-transform: uppercase;
+  border: none;
+  width: 320px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width:900px) {
+  .Store .gameList {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .Store .preview {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width:750px) {
+  .Store {
+    padding: 10%;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .Store .preview .description {
+    width: 100%;
+  }
+
+  .Store .gameList {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  header .search {
+    display: none;
+  }
+
+  .Store .gameBuy {
+    width: 100%;
+  }
 }
