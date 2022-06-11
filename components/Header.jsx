@@ -31,7 +31,7 @@ const Header = () => {
                 <input type="text" placeholder='Search' ref={inputRef} />
             </form>
             <div className="profile">S</div >
-        </header >
+        </header>
     )
 }
 
