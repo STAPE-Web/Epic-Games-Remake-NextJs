@@ -117,5 +117,5 @@ export const games = [
         price: 149,
         preview: 'https://cdn1.epicgames.com/spt-assets/bb8544ed98fd42c08af55a3efcc68e22/beku-ipqv6.jpg'
 
-    },
+    }
 ]
