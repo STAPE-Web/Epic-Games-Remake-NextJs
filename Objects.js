@@ -12,7 +12,6 @@ export const games = [
         name: 'Bugsnax',
         price: 439.20,
         preview: 'https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fbugsnax%2Fhome%2FEGS_Bugsnax_YoungHorses_G1A_01-1920x1080-f12b03ad30878ba5ef6e77fb17c2ab151b2dfcea.jpg'
-
     },
     {
         id: 2,
