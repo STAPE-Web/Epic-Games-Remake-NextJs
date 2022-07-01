@@ -19,7 +19,6 @@ export const games = [
         name: 'Warframe',
         price: 0,
         preview: 'https://cdn2.unrealengine.com/egs-warframe-digitalextremes-g1a-01-1920x1080-2d1069a28637.jpg'
-
     },
     {
         id: 3,
