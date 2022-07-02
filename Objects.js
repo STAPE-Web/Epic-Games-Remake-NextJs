@@ -26,7 +26,6 @@ export const games = [
         name: 'VALORANT',
         price: 0,
         preview: 'https://cdn2.unrealengine.com/egs-valorant-riotgames-g1a-02-1920x1080-580683fffe0f.jpg'
-
     },
     {
         id: 4,
