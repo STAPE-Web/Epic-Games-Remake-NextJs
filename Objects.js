@@ -33,7 +33,6 @@ export const games = [
         name: 'Among Us',
         price: 99,
         preview: 'https://cdn2.unrealengine.com/amoguslandscape-2560x1440-2c59395f3208.jpg'
-
     },
     {
         id: 5,
