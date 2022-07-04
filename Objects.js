@@ -40,7 +40,6 @@ export const games = [
         name: 'Amnesia: Rebirth',
         price: 515,
         preview: 'https://cdn2.unrealengine.com/egs-amnesiarebirth-frictionalgames-g1a-02-1920x1080-314236359.jpg'
-
     },
     {
         id: 6,
