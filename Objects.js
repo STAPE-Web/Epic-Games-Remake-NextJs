@@ -47,7 +47,6 @@ export const games = [
         name: 'Rocket League®',
         price: 0,
         preview: 'https://cdn2.unrealengine.com/egs-rocketleague-psyonixllc-g1a-00-1920x1080-ee9b67be53d2.jpg'
-
     },
     {
         id: 7,
