@@ -54,7 +54,6 @@ export const games = [
         name: 'while True: learn()',
         price: 299,
         preview: 'https://cdn2.unrealengine.com/egs-whiletruelearn-ludenio-g1a-04-1920x1080-6b252d902064.jpg'
-
     },
     {
         id: 8,
