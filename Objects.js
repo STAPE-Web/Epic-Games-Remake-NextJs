@@ -61,7 +61,6 @@ export const games = [
         name: 'Genshin Impact',
         price: 0,
         preview: 'https://cdn2.unrealengine.com/egs-genshinimpact-cognospherepteltd-g1a-00-1920x1080-8db4c2df2a02.jpg'
-
     },
     {
         id: 9,
