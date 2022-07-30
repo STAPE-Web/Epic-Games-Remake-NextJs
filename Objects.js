@@ -68,7 +68,6 @@ export const games = [
         name: 'PC Building Simulator',
         price: 435,
         preview: 'https://cdn2.unrealengine.com/egs-pcbuildingsimulator-theirregularcorporation-g1a-01-1920x1080-b65ad51d035a.jpg'
-
     },
     {
         id: 10,
